@@ -9,7 +9,7 @@ L.tileLayer(
   'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
   {
     zoomSnap: 2,
-    maxZoom: 18,
+    maxZoom: 16,
 
     attribution:
       '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words"><input type="submit"></form>',
