@@ -3,7 +3,9 @@ Use BIP39 words to locate anywhere in the world!
 
 Any3words is cool, but it's closed, and there is no guarantee they wont change their words :(
 
-Where39 uses BIP39 word list, the most distributed word list in the world https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
+Where39 uses BIP39 word list, the most distributed word list in the world 
+
+https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md
 
 Locate anywhere to extreme accuracy using only 4-5 words!
 
