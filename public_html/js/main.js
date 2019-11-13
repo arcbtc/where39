@@ -79,7 +79,8 @@ function onMapClick(e) {
 map.on('click', onMapClick)
 
 function _zoomTo(e) {
-  var inpStr = document.getElementById('inp').value
+  var inpStrr = document.getElementById('inp').value;
+  var inpStr = inpStrr.toLowerCase();
   var inpsplt = inpStr
     .split(' ')
     .map(x => x.trim())
