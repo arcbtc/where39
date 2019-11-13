@@ -47,7 +47,7 @@ This square is split into 2025 smaller tiles 45/45, which works out 0.0000617283
 ![privacy map where39](https://i.imgur.com/o4LHkAE.png)
 
 ## 5th word
-The 5th word is the tresure word, and usually not necessary. We can break this square into 400 smaller tiles 20/20, which works out 0.00000308642/0.00000308642 degrees per tile.
+The 5th word is the tresure word, and usually not necessary. We can split this square into 400 smaller tiles 20/20, which works out 0.00000308642/0.00000308642 degrees per tile.
 
 ![ESP32 GPIO Map](https://i.imgur.com/FwO6Tkd.png)
 
