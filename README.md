@@ -13,9 +13,13 @@ x5 words for 1 ft<sup>2</sup> accuracy
 
 ![privacy map where39](https://i.imgur.com/cnnDgSF.png)
 
-By using the 4 word search you can find a location.
+* "My location" will give you your current location words
 
-For extra privacy the shuffle function, shuffles the BIP39 wordlist, so unless you have the number entered the word locations are useless.
+* You can also click on the map to get location words
+
+* By using the 4 word search you can find a specific location anywhere in the world
+
+* For extra privacy the shuffle function, shuffles the BIP39 wordlist, so unless you have the number entered the word locations are useless.
 
 
 # How it works
