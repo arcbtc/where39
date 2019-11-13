@@ -14,8 +14,8 @@ var map = L.map('map').fitWorld()
    }
 var paracode = getUrlVars()["passcode"];
 if (paracode >= 1 && paracode <= 9999999){
-    
-  var attrib =  '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words" style="width:70%"><input style="width:30%" type="submit" value="submit"></form><div><b style="color:red;width:70%;float:left;" >Word-list shuffled using '+ paracode +'</b><a href="https://where39.com"><input style="width:30%;float: right;"  type="submit" value="unshuffle"></a></div> BETA   <a href="https://github.com/arcbtc/where39">learn more about where39</a>';
+    var url = window.location.origin;
+  var attrib =  '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words" style="width:70%"><input style="width:30%" type="submit" value="submit"></form><div><b style="color:red;width:70%;float:left;" >Word-list shuffled using '+ paracode +'</b><a href="'+url+'"><input style="width:30%;float: right;"  type="submit" value="unshuffle"></a></div> BETA   <a href="https://github.com/arcbtc/where39">learn more about where39</a>';
   }
   else{
     
@@ -134,7 +134,7 @@ function _zoomTo(e) {
 }
 function _passcode(e) {
   var numberr = document.getElementById('passbox');
-  window.location.href = "http://where39.com?passcode=" + numberr.value;
+  window.location.href = "?passcode=" + numberr.value;
 
   
 }
