@@ -112,3 +112,4 @@ function _zoomTo(e) {
 
   map.setView(new L.LatLng(lat, lng), 13)
 }
+}
