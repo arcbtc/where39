@@ -39,9 +39,9 @@ function _mylocation(e) {
           'You are within ' +
           radius +
           ' meters from this point<br/>' +
-          e.latlng.lat +
+          Number(e.latlng.lat).toFixed(5) +
           ' ' +
-          e.latlng.lng
+          Number(e.latlng.lng).toFixed(5)
       )
       .openPopup()
 
