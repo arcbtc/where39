@@ -12,8 +12,6 @@ x4 words for 5 m<sup>2</sup> accuracy
 x5 words for 1 ft<sup>2</sup> accuracy
 
 # How it works
-Where39 iterates through the BIP39 word list, getting more precise with each word.
-
 ## 1st word
 First we break the earth into tiles 32/64, 2048 tiles (the amount of words in the BIP32 wordlist). We allocate each tile a word, this is achieved by using the earths latitude (180 degrees) and logitude (360 degrees). 
 Each tile is 5.625/5.625 degrees.
