@@ -1,4 +1,4 @@
-# where39
+# Where39
 Use BIP39 words to locate anywhere in the world!
 
 Any3words is cool, but its closed, and there is no guarantee they wont change their words :(
