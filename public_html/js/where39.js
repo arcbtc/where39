@@ -34,8 +34,32 @@
   }
 
   /** @format */
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+   }
+
+   function shuffle(array, para) {
+    var parra = parseFloat("0." + para.toString());
+    for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(parra * (i + 1)); // random index from 0 to i
+    [array[i], array[j]] = [array[j], array[i]];
+   }
+  }
+
+  /** @format */
 
   const fullseed = words.split(',');
+  var paracode = getUrlVars()["passcode"];
+
+  if (paracode >= 1 && paracode <= 9999999){
+    shuffle(fullseed, paracode);
+
+  }
+
   const p45seed = fullseed.slice(0, 2025);
   const p20seed = fullseed.slice(0, 400);
 
