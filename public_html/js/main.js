@@ -5,14 +5,33 @@ var where39 = window.where39
 
 var map = L.map('map').fitWorld()
 
+  function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+   }
+var paracode = getUrlVars()["passcode"];
+if (paracode >= 1 && paracode <= 9999999){
+    
+  var attrib =  '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words" style="width:70%"><input style="width:30%" type="submit" value="submit"></form><div><b style="color:red;width:70%;float:left;" >Word-list shuffled using '+ paracode +'</b><a href="https://where39.com"><input style="width:30%;float: right;"  type="submit" value="unshuffle"></a></div> BETA   <a href="https://github.com/arcbtc/where39">learn more about where39</a>';
+  }
+  else{
+    
+  var attrib =  '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words" style="width:70%"><input value="submit" style="width:30%" type="submit"></form><div id="shuffle"><form onsubmit="_passcode(); return false"><input style="width:70%" id="passbox" type="number" name="quantity" min="1" max="9999999" placeholder="Shuffle words enter 1-9999999"><input type="submit" value="shuffle" style="width:30%"></form></div>BETA  <a href="https://github.com/arcbtc/where39">learn more about where39</a>';
+    }
+
+
 L.tileLayer(
   'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
   {
     zoomSnap: 2,
-    maxZoom: 16,
+    maxZoom: 18,
 
     attribution:
-      '<button id="inputbox" onclick="_mylocation()">My location</button><br/><form onsubmit="_zoomTo(); return false"><input type="text" name="lng" id="inp" placeholder="Enter four bip39 words"><input type="submit"></form>',
+      attrib,
+  
     id: 'mapbox.streets'
   }
 ).addTo(map)
@@ -39,9 +58,9 @@ function _mylocation(e) {
           'You are within ' +
           radius +
           ' meters from this point<br/>' +
-          Number(e.latlng.lat).toFixed(5) +
+          e.latlng.lat +
           ' ' +
-          Number(e.latlng.lng).toFixed(5)
+          e.latlng.lng
       )
       .openPopup()
 
@@ -113,4 +132,9 @@ function _zoomTo(e) {
 
   map.setView(new L.LatLng(lat, lng), 13)
 }
+function _passcode(e) {
+  var numberr = document.getElementById('passbox');
+  window.location.href = "http://where39.com?passcode=" + numberr.value;
 
+  
+}
