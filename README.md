@@ -19,17 +19,17 @@ Each tile is 5.625/5.625 degrees.
 ![ESP32 GPIO Map](https://i.imgur.com/5Fc3SYL.png)
 
 ## 2nd word
-We can break this square into 2025 smaller tiles 45/45, which works out 0.125/0.125 degrees.
+This square is split into 2025 smaller tiles 45/45, which works out 0.125/0.125 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/uPGTz1C.png)
 
 ## 3rd word
-We can break this square into 2025 smaller tiles 45/45, which works out 0.00277777777/0.00277777777 degrees.
+This square is split into 2025 smaller tiles 45/45, which works out 0.00277777777/0.00277777777 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/apoxgI2.png)
 
 ## 4th word
-We can break this square into 2025 smaller tiles 45/45, which works out 0.00006172839/0.00006172839 degrees.
+This square is split into 2025 smaller tiles 45/45, which works out 0.00006172839/0.00006172839 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/o4LHkAE.png)
 
