@@ -24,7 +24,7 @@ x5 words for 1 ft<sup>2</sup> accuracy
 
 * By using the 4 word search you can find a specific location anywhere in the world
 
-* For extra privacy the shuffle function, shuffles the BIP39 wordlist, so unless you have the number entered the word locations are useless.
+* For extra privacy the shuffle function, shuffles the BIP39 wordlist. Only people you share the number with will be able to make sense of your word locations.
 
 
 # How it works
