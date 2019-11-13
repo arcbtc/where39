@@ -67,3 +67,6 @@ Or you could just a tool like,
 
 https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en 
 
+# Tip me
+If you like this project and might even use or extend it, why not send some tip love!
+https://paywall.link/to/73b2a
