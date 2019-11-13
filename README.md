@@ -14,28 +14,28 @@ x5 words for 1 ft<sup>2</sup> accuracy
 # How it works
 Where39 iterates through the BIP39 word list, getting more precise with each word.
 
-1st word
+## 1st word
 First we break the earth into tiles 32/64, 2048 tiles (the amount of words in the BIP32 wordlist). We allocate each tile a word, this is achieved by using the earths latitude (180 degrees) and logitude (360 degrees). 
 Each tile is 5.625/5.625 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/5Fc3SYL.png)
 
-2nd word
+## 2nd word
 We can break this square into 2025 smaller tiles 45/45, which works out 0.125/0.125 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/uPGTz1C.png)
 
-3rd word
+## 3rd word
 We can break this square into 2025 smaller tiles 45/45, which works out 0.00277777777/0.00277777777 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/apoxgI2.png)
 
-4th word
+## 4th word
 We can break this square into 2025 smaller tiles 45/45, which works out 0.00006172839/0.00006172839 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/o4LHkAE.png)
 
-5th word
+## 5th word
 The 5th word is the tresure word, and usually not necessary. We can break this square into 400 smaller tiles 20/20, which works out 0.00000308642/0.00000308642 degrees.
 
 ![ESP32 GPIO Map](https://i.imgur.com/FwO6Tkd.png)
