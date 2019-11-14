@@ -67,7 +67,7 @@ Or you could just a tool like,
 
 https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en 
 
-https://www.youtube.com/ygRtlWjQ-Js
+https://www.youtube.com/watch?v=ygRtlWjQ-Js
 
 # Tip me
 If you like this project and might even use or extend it, why not send some tip love!
