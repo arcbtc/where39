@@ -69,6 +69,16 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 
 https://www.youtube.com/watch?v=ygRtlWjQ-Js
 
+# Additional resources
+
+Nodejs library https://www.npmjs.com/package/where39 https://twitter.com/fiatjaf/status/1194570161438822400
+
+Phone app https://github.com/fusion44/where39_app/  https://twitter.com/fusion44/status/1196099713021480960
+
+Rust implementation https://github.com/sgeisler/rust-where39 https://twitter.com/sebx2a/status/1195117349575241728
+
+*if you make something for/using where39, please tell me so I can add you to the list!
+
 # Tip me
 If you like this project and might even use or extend it, why not send some tip love!
 https://paywall.link/to/f4e4e
