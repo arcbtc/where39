@@ -1,9 +1,6 @@
 # Where39
 
-Python Library https://github.com/dekoza/pywhere39
-Nodejs library https://www.npmjs.com/package/where39
-Phone app https://github.com/fusion44/where39_app/ 
-Rust implementation https://github.com/sgeisler/rust-where39
+Python Library https://github.com/dekoza/pywhere39<br/>Nodejs library https://www.npmjs.com/package/where39<br/>Phone app https://github.com/fusion44/where39_app/<br/>Rust implementation https://github.com/sgeisler/rust-where39
 
 https://where39.com
 
