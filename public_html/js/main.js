@@ -28,7 +28,6 @@ L.tileLayer(
   {
     zoomSnap: 2,
     maxZoom: 18,
-  //  accessToken: 'pk.eyJ1IjoiYmVuYXJjIiwiYSI6ImNra2QybXdidTA3NzEyd255MXp6cjczbDEifQ.ZyN1juw69Q2spV4fpLxGBQ',
     attribution:
     attrib,
     id: 'mapbox/streets-v11'
@@ -136,6 +135,4 @@ function _zoomTo(e) {
 function _passcode(e) {
   var numberr = document.getElementById('passbox');
   window.location.href = "?passcode=" + numberr.value;
-
-  
 }
