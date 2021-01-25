@@ -24,17 +24,18 @@ if (paracode >= 1 && paracode <= 9999999){
 
 
 L.tileLayer(
-  'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',
+ 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmVuYXJjIiwiYSI6ImNra2QybXdidTA3NzEyd255MXp6cjczbDEifQ.ZyN1juw69Q2spV4fpLxGBQ',
   {
     zoomSnap: 2,
     maxZoom: 18,
-
+  //  accessToken: 'pk.eyJ1IjoiYmVuYXJjIiwiYSI6ImNra2QybXdidTA3NzEyd255MXp6cjczbDEifQ.ZyN1juw69Q2spV4fpLxGBQ',
     attribution:
-      attrib,
-  
-    id: 'mapbox.streets'
+    attrib,
+    id: 'mapbox/streets-v11'
   }
 ).addTo(map)
+
+
 
 // map.locate({setView: true, maxZoom: 3});
 map.setView(new L.LatLng(19.476950206488414, -2.6367187500000004), 3)
