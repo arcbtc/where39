@@ -1,6 +1,9 @@
 # Where39
 
-(There is now also a python library https://github.com/dekoza/pywhere39 and npm library https://www.npmjs.com/package/where39)
+Python Library https://github.com/dekoza/pywhere39
+Nodejs library https://www.npmjs.com/package/where39 https://twitter.com/fiatjaf/status/1194570161438822400
+Phone app https://github.com/fusion44/where39_app/  https://twitter.com/fusion44/status/1196099713021480960
+Rust implementation https://github.com/sgeisler/rust-where39 https://twitter.com/sebx2a/status/1195117349575241728
 
 https://where39.com
 
@@ -71,15 +74,6 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 
 https://www.youtube.com/watch?v=ygRtlWjQ-Js
 
-# Additional resources
-
-Nodejs library https://www.npmjs.com/package/where39 https://twitter.com/fiatjaf/status/1194570161438822400
-
-Phone app https://github.com/fusion44/where39_app/  https://twitter.com/fusion44/status/1196099713021480960
-
-Rust implementation https://github.com/sgeisler/rust-where39 https://twitter.com/sebx2a/status/1195117349575241728
-
-*if you make something for/using where39, please tell me so I can add you to the list!
 
 # Tip me
 If you like this project and might even use or extend it, why not send some tip love!
