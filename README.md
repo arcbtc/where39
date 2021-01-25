@@ -1,5 +1,7 @@
 # Where39
 
+(There is now also a python library https://github.com/dekoza/pywhere39 and npm library https://www.npmjs.com/package/where39)
+
 https://where39.com
 
 Use BIP39 words to locate anywhere in the world!
