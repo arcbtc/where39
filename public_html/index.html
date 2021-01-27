@@ -1,58 +1,38 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Where 39, BIP39 location system</title>
-
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link rel="shortcut icon" type="image/x-icon" href="https://where39.com/docs/images/favicon.ico" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="/js/leaflet.css" />
-    <script src="/js/leaflet.js"></script>
-
-    <script src="/js/where39.js"></script>
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
+	<head>
+		<title>Where 39, BIP39 location system</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="https://where39.com/docs/images/favicon.ico" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="/js/leaflet.css" />
+		<script src="/js/leaflet.js"></script>
+		<script src="/js/where39.js"></script>
+		<style>
+			html, body {
+				height: 100%;
+				margin: 0;
+			}
+			#map {
+				width: 600px;
+				height: 400px;
+			}
+		#inputbox{
+		width: 75%;
 		}
-		#map {
-			width: 600px;
-			height: 400px;
-
+		.leaflet-touch .leaflet-control-attribution{
+		box-shadow: none;
+		font-size: 17px;
+		width: 125%;
 		}
-                #inputbox{
-   width: 75%;
-
-}
-
-.leaflet-touch .leaflet-control-attribution{
-    box-shadow: none;
-    font-size: 20px;
-width: 125%;
-}
-	</style>
-
-	<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
-
-
-
-</head>
-<body>
-
-<div id='map'></div>
-
-<script src="/js/main.js"></script>
-
-
-
-</body>
-
-<script>
-
-</script>
-
+		</style>
+		<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+	</head>
+	<body>
+		<div id='map'></div>
+		<script src="/js/main.js"></script>
+	</body>
+	<script>
+	</script>
 </html>
