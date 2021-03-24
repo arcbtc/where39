@@ -24,7 +24,7 @@ if (paracode >= 1 && paracode <= 9999999){
 
 
 L.tileLayer(
- 'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYmVuYXJjIiwiYSI6ImNra2QybXdidTA3NzEyd255MXp6cjczbDEifQ.ZyN1juw69Q2spV4fpLxGBQ',
+ 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
   {
     zoomSnap: 2,
     maxZoom: 18,
