@@ -139,6 +139,9 @@ function _zoomTo(e) {
 
   map.setView(new L.LatLng(lat, lng), 13)
   insertParam("words", inpsplt)
+  setTimeout(function () {
+    map.fitBounds(L.marker.getBounds())
+  }, 500)
 }
 function insertParam(key, value) {
   console.log(value)
